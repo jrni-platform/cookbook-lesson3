@@ -1,0 +1,21 @@
+{
+  "bbAppManifestVersion":"1.0",
+  "name": "Lesson Day3",
+  "unique_name": "day3",
+  "version": "0.1",
+  "description": "12 Lessons Day 3",
+  "author": "BookingBug",
+  "licence": "GPL",
+  "tags": "12days",
+  "config": true,
+  "panels": [ 
+    "day3_panel" 
+  ],
+  "objects": [  
+  ],
+  "script_packs": [
+    "day3_scripts"
+  ],
+  "liquid": [
+  ]
+}

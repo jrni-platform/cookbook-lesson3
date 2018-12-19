@@ -1,0 +1,30 @@
+{
+  "version": "0.1",
+  "name": "Day1Scripts",
+  "description": "Scripts for Day 3 of Lessons",
+  "platform": "nodejs8.10",
+  "created_at": "2018-10-24",
+  "updated_at": "2018-10-24",
+  "enabled": true,
+  "scripts":
+  [
+    {
+      "name":"Present",
+      "description":"tell me what I'm getting on day 3 as data",
+      "type":"PublicScript",
+      "actions": ["Get"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "french_hen"
+    },
+    {
+      "name":"PresentProxy",
+      "description":"Tell me what I'm getting on day 3 as html",
+      "type":"PublicScript",
+      "actions": ["Get"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "french_hen_proxy"
+    }
+  ]
+}
