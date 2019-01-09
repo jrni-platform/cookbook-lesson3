@@ -22,7 +22,7 @@ Configurator.addPage('Clients', 'french_hen', {
 // A a new tab to the "client profile" set of tabs - that is set to shwo the new page
 Configurator.addNamedTab('client_profile', { 
     name: 'French Hen',
-    path: '.views({sub_view: "french_hen"})',
+    path: '.views({view: "french_hen"})',
     position: -1
 });
 
